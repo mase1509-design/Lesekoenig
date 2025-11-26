@@ -214,7 +214,7 @@
         monthTotal += minutes;
 
         const dayEl = document.createElement('div');
-        dayEl.className = 'day ' + (minutes>=10 ? 'green' : 'red');
+        dayEl.className = 'day ' + (minutes>=9 ? 'green' : 'red');
         dayEl.tabIndex = 0;
         dayEl.setAttribute('role', 'button');
         dayEl.setAttribute('aria-label', `${d}. ${viewMonth+1}. ${viewYear}: ${minutes} Minuten`);
